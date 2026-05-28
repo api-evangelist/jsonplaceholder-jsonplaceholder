@@ -1,0 +1,32 @@
+aid: jsonplaceholder-jsonplaceholder
+name: JSONPlaceholder
+description: "Fake data for testing and prototyping"
+url: http://jsonplaceholder.typicode.com/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Test Data"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Test Data
+  - Public APIs
+apis:
+  - name: JSONPlaceholder
+    description: "Fake data for testing and prototyping"
+    humanURL: http://jsonplaceholder.typicode.com/
+    baseURL: http://jsonplaceholder.typicode.com/
+    tags:
+      - Test Data
+    properties:
+      - type: Documentation
+        url: http://jsonplaceholder.typicode.com/
+common:
+  - type: Website
+    url: http://jsonplaceholder.typicode.com/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
