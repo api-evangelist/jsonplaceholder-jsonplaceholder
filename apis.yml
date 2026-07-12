@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: http://jsonplaceholder.typicode.com/
 common:
+  - type: DomainSecurity
+    url: security/jsonplaceholder-jsonplaceholder-domain-security.yml
   - type: Website
     url: http://jsonplaceholder.typicode.com/
   - type: PublicAPIsListing
